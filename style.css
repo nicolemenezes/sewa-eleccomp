@@ -1,0 +1,85 @@
+body {
+  font-family: 'Arial', sans-serif;
+  color: #000000; /* Black text color for content */
+  background-color: #004D40; /* Dark Teal background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+.header {
+  background-color: #000000; /* Black background */
+  color: #FFEB3B; /* Yellow text color */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #FFEB3B; /* Yellow background */
+  padding: 15px 0; /* Increased padding for better visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+.navbar a {
+  color: #004D40; /* Dark Teal text color for contrast */
+  text-decoration: none;
+  padding: 14px 25px; /* Increased padding for better click area */
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background-color: #004D40; /* Dark Teal background on hover */
+  color: #FFEB3B; /* Yellow text color on hover */
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 20px;
+  max-width: 1400px; /* Increased width for a more spacious layout */
+  margin: 0 auto;
+}
+
+/* Container Styles */
+.container {
+  background-color: #00796B; /* Medium Teal background */
+  border: 1px solid #004D40; /* Dark Teal border */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Call-to-Action Button Styles */
+.btn-primary {
+  background-color: #FFEB3B; /* Yellow background */
+  color: #000000; /* Black text color */
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #004D40; /* Dark Teal background on hover */
+  color: #FFEB3B; /* Yellow text color */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000000; /* Black background */
+  color: #FFEB3B; /* Yellow text color */
+  text-align: center;
+  padding: 20px 0;
+}

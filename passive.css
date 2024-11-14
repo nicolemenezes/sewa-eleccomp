@@ -1,0 +1,107 @@
+ body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #264653;
+    background-size: cover;
+    color: rgb(219, 94, 94);
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: rgb(42, 157, 143); /* Semi-transparent background */
+    border-radius: 12px;
+  }
+  
+  /* Header styling */
+  h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 3em;
+    color: #ffdf00;
+  }
+  
+  /* Component styling */
+  .component {
+    display: flex;
+    background-color: 2a9d8f; /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(57, 130, 226, 0.897); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Hover effect */
+  .component:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Image styling */
+  .component img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  /* Description styling */
+  .component .description {
+    flex-grow: 1;
+  }
+  
+  .component h2 {
+    margin: 0 0 15px 0;
+    font-size: 1.8em;
+    color: #ffdf00;
+  }
+  
+  .component p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #f1faf9;
+  }
+  
+  button.know-more-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ffdf00;
+    color: #720707;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.know-more-btn:hover {
+    background-color: #ffd700;
+  }
+  
+  /* More info styling */
+  .more-info {
+    margin-top: 15px;
+    font-size: 1em;
+    line-height: 1.5;
+    color: rgb(73, 25, 25);
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .component {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .component img {
+        margin: 0 auto 20px;
+        width: 100%;
+        height: auto;
+    }
+  }

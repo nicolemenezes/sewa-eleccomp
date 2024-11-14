@@ -1,0 +1,13 @@
+body
+pre{
+  background-color: white;
+  background-image: url("bluebg.jpg")
+  ;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+  color: maroon
+;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}

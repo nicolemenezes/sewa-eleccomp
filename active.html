@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a description of Active Components in electronics.">
+    <meta name="keywords" content="ACTIVE COMPONENTS, PASSIVE COMPONENTS, ELECTROCHEMICAL DEVICES">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Active Components</title>
+    <style>
+        body {
+            background-color: #264653;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .container img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .list-group-item {
+            background-color: #2a9d8f;
+            color: white;
+            border-color: #264653;
+        }
+
+        h1, h3 {
+            color: #e9c46a;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color:#e9c46a;
+                }
+
+        .navbar-brand,
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #e9c46a !important;
+        }
+
+        .dropdown-menu {
+            background-color: #2a9d8f;
+        }
+
+        .dropdown-item {
+            color: white;
+        }
+
+        .dropdown-item:hover {
+            background-color: #e9c46a;
+            color: #264653;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Electronic Components</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="color: white;"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Active Components</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Passive Components</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Glossary</a></li>
+                            <li><a class="dropdown-item" href="#">Reference Videos</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Active Components</h1>
+        <p>Active components are electronic devices that need an external power source to work. They actively control and manipulate the flow of electric current in a circuit. These components can amplify, switch, or generate electrical signals. They are capable of performing active functions like amplification, rectification, and switching. They are classified into several groups:</p>
+        
+        <ol class="list-group list-group-numbered my-4">
+            <li class="list-group-item">
+                <b>Transistors</b><br>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2021/1/LH/WD/BY/59590838/electronic-transistors-500x500.jpg" alt="Transistors Image" class="img-fluid my-3">
+                <p><b>Function:</b> Transistors are the building blocks of modern electronics. They can act as switches, turning currents on or off, or as amplifiers, boosting weak signals.</p>
+                <p><b>Types:</b> The most common types of transistors are Bipolar Junction Transistors (BJTs) and Field-Effect Transistors (FETs).</p>
+                <p><b>BJTs:</b> Control current flow using both electrons and holes. They have three layers (emitter, base, collector).</p>
+                <p><b>FETs:</b> Control current using an electric field. They are widely used in digital circuits, with MOSFETs (Metal-Oxide-Semiconductor FETs) being the most popular.</p>
+            </li>
+            <li class="list-group-item">
+                <b>Light Emitting Diodes (LEDs)</b><br>
+                <img src="https://diotlabs.daraghbyrne.me/docs/a-simple-internet-appliance/images/image03.gif" alt="LEDs Image" class="img-fluid my-3">
+                <p><b>Function:</b> LEDs emit light when current flows through them, used in displays and indicators.</p>
+                <p><b>Types:</b></p>
+                <p><b>Rectifier Diodes:</b> Used in power supplies to convert AC to DC.</p>
+                <p><b>Zener Diodes:</b> Allow current to flow in the reverse direction when a specific voltage is reached, used for voltage regulation.</p>
+            </li>
+            <li class="list-group-item">
+                <b>Integrated Circuits (ICs)</b><br>
+                <img src="https://www.bomzon.com/wp-content/uploads/2022/11/What-is-an-IC-Chip.jpg" alt="ICs Image" class="img-fluid my-3">
+                <p><b>Function:</b> ICs are small chips that can perform complex tasks by integrating millions of transistors and other components into a single piece of silicon. They are used in virtually all electronic devices to handle tasks like computation, signal processing, and memory storage.</p>
+                <p><b>Types:</b></p>
+                <p><b>Analog ICs:</b> Deal with continuous signals (e.g., amplifiers, oscillators).</p>
+                <p><b>Digital ICs:</b> Work with binary data (0s and 1s) (e.g., microprocessors, memory chips).</p>
+                <p><b>Mixed-Signal ICs:</b> Handle both analog and digital signals.</p>
+            </li>
+            <li class="list-group-item">
+                <b>Operational Amplifiers (Op-Amps)</b><br>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/LM741CN.jpg/220px-LM741CN.jpg" alt="Op-Amps Image" class="img-fluid my-3">
+                <p><b>Function:</b> Op-Amps are a type of IC that can amplify voltage signals. They are used in many applications, such as audio equipment, signal conditioning, and control systems.</p>
+                <p><b>Features:</b> High input impedance, low output impedance, and the ability to operate with a wide range of signal voltages.</p>
+            </li>
+            <li class="list-group-item">
+                <b>Voltage Regulators</b><br>
+                <img src="https://www.tutorialspoint.com/electronic_circuits/images/voltage_regulator.jpg" alt="Voltage Regulators Image" class="img-fluid my-3">
+                <p><b>Function:</b> Voltage regulators are used to maintain a constant output voltage regardless of changes in the input voltage or load conditions. This is critical for the stable operation of electronic circuits.</p>
+                <p><b>Types:</b></p>
+                <p><b>Linear Regulators:</b> Simple but inefficient, used when power efficiency is not critical.</p>
+                <p><b>Switching Regulators:</b> More efficient, used in power-sensitive applications.</p>
+            </li>
+            <li class="list-group-item">
+                <b>Oscillators</b><br>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULatukMENCARvvcrY91Z4POrS_aX8gtHYXA&s" alt="Oscillators Image" class="img-fluid my-3">
+                <p><b>Function:</b> Oscillators generate repetitive waveforms (like sine waves, square waves, etc.) and are used in clocks, radio transmitters, and other timing-related applications.</p>
+                <p><b>Types:</b></p>
+                <p><b>Crystal Oscillators:</b> Use a quartz crystal to produce a stable frequency.</p>
+                <p><b>LC Oscillators:</b> Use inductors and capacitors to generate a signal.</p>
+            </li>
+        </ol>
+
+        <h3 class="text-center mb-4">Key Characteristics of Active Components</h3>
+        <p><b>Power Requirement:</b> Active components require an external power source to operate, unlike passive components (like resistors and capacitors) that do not need external power.</p>
+        <p><b>Signal Amplification:</b> They can amplify signals, which is crucial in communication systems, audio equipment, and signal processing.</p>
+        <p><b>Control and Switching:</b> Active components can control the flow of current and act as switches in circuits, enabling complex operations in digital and analog systems.</p>
+        <p>These components are essential in nearly all modern electronic devices, from simple gadgets to sophisticated computers and communication systems. Without active components, we wouldn't have the advanced technology we rely on today.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

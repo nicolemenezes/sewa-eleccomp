@@ -1,0 +1,14 @@
+body {
+    background: color #264653; ;
+}
+p {
+    color: white;  
+      font-size: 20px;
+}
+b {
+    color: white;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+}
